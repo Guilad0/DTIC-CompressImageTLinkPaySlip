@@ -42,20 +42,16 @@ export default function CompressImagePage() {
     setIsCompressing(true);
 
     try {
-      
       const canvas = document.createElement("canvas");
       const ctx = canvas.getContext("2d");
       const img = new Image();
 
       img.onload = () => {
-        
         canvas.width = img.width;
         canvas.height = img.height;
 
-        
         ctx?.drawImage(img, 0, 0);
 
-        
         canvas.toBlob(
           (blob) => {
             if (blob) {
@@ -107,12 +103,11 @@ export default function CompressImagePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
       <div className="container mx-auto px-4 py-8">
-        {/* Header */}
         <div className="flex items-center mb-8">
           <Button
-            variant="ghost"
+            variant="outline"
             onClick={() => router.back()}
-            className="mr-4 hover:bg-white/50"
+            className="mr-4 hover:bg-white/50 cursor-pointer"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Volver

@@ -9,7 +9,6 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "export": "next export"
-
   },
   "dependencies": {
     "@netlify/next": "^1.4.9",

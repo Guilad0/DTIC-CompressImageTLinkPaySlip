@@ -39,10 +39,10 @@ export default function HomePage() {
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Portal de Servicios
+            Portal de Servicios RUGE
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Accede a nuestros servicios principales de manera rápida y sencilla
+            Accede a nuestros servicios auxiliares de manera rápida y sencilla
           </p>
         </div>
 
@@ -87,7 +87,8 @@ export default function HomePage() {
                 </Button>
               </form>
               <p className="text-sm text-gray-500 mt-3 text-center">
-                El código se encuentra en tu recibo de nómina
+                El código se encuentra en su bandeja de solicitudes en el portal
+                RUGE
               </p>
             </CardContent>
           </Card>
@@ -120,10 +121,29 @@ export default function HomePage() {
 
         <div className="text-center mt-16">
           <p className="text-gray-500">
-            ¿Necesitas ayuda?{" "}
+            ¿Necesitas ayuda?
             <span className="text-blue-600 hover:underline cursor-pointer">
               Contacta soporte
             </span>
+          </p>
+          <p className="text-gray-500 mt-2">
+            © 2025 Portal de Servicios RUGE. Todos los derechos reservados
+          </p>
+          <p className="text-gray-500">
+            <a
+              href="mailto:guilad1233@gmail.com"
+              className="text-blue-300 hover:underline"
+            >
+              guilad1233@gmail.com
+            </a>
+            <br />
+            <a
+              href="https://wa.me/59175946778"
+              target="_blank"
+              className="text-blue-300 hover:underline"
+            >
+              75946778
+            </a>
           </p>
         </div>
       </div>
